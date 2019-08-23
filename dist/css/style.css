@@ -133,7 +133,7 @@
   
   .section-c .gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
   .section-c .gallery a:first-child {
     /* grid-row-start: 1;
@@ -161,7 +161,7 @@
   
   .section-footer .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
   }
   
@@ -182,6 +182,39 @@
   .section-footer a > i {
     color: #555;
     margin-right: 0.5rem;
+  }
+  .section-d {
+    position: relative;
+    background: url('../img/IMG_1745.JPG') no-repeat bottom center/cover;
+    height: 600px;
+  }
+  
+  .section-d-inner {
+    
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+  }
+  
+  .section-d-inner h3 {
+    font-size: 2rem;
+  }
+  
+  .section-d-inner h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  
+  .section-d-inner p {
+    margin-top: 1rem;
+    font-size: 1rem;
   }
   
   .email-form {
